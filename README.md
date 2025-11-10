@@ -2,7 +2,6 @@
 
 <div align="center">
 
-![AI Career Coach Banner](https://via.placeholder.com/1200x400/3B82F6/FFFFFF?text=AI+Career+Coach+🚀) <!-- Replace with your actual banner -->
 
 [![Next.js](https://img.shields.io/badge/Next.js-15.0-000000?style=for-the-badge&logo=next.js)](https://nextjs.org/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.0-3178C6?style=for-the-badge&logo=typescript)](https://www.typescriptlang.org/)
@@ -14,6 +13,8 @@
 [![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
 
 **Transform your career journey with AI-powered guidance, resume analysis, and personalized learning roadmaps**
+
+---
 
 </div>
 
@@ -30,37 +31,32 @@
 ## 🎯 Featured Capabilities
 
 ### 🤖 Intelligent Career Assistant
-<p align="center">
-  <img src="https://via.placeholder.com/600x300/1E40AF/FFFFFF?text=AI+Career+Chat" width="45%" alt="AI Career Chat">
-  <img src="https://via.placeholder.com/600x300/7C3AED/FFFFFF?text=Personalized+Guidance" width="45%" alt="Personalized Guidance">
-</p>
 
 - **💬 Real-time Career Q&A** - Get instant answers to career-related questions
 - **🎯 Personalized Recommendations** - Tailored advice based on your background
 - **📈 Progress Tracking** - Monitor your career development journey
 - **🏆 Industry Insights** - Stay updated with latest career trends
 
+  ---
+
 ### 📄 Advanced Resume Analyzer
-<p align="center">
-  <img src="https://via.placeholder.com/600x300/059669/FFFFFF?text=Resume+Scoring" width="45%" alt="Resume Scoring">
-  <img src="https://via.placeholder.com/600x300/DC2626/FFFFFF?text=Detailed+Feedback" width="45%" alt="Detailed Feedback">
-</p>
 
 - **🔍 Comprehensive Analysis** - Deep dive into your resume's strengths and weaknesses
 - **📊 Section-wise Scoring** - Contact info, experience, education, and skills evaluation
 - **💡 Actionable Insights** - Specific suggestions for improvement
 - **🎯 ATS Optimization** - Tips to beat Applicant Tracking Systems
 
+--- 
+
 ### 🗺️ Interactive Roadmap Generator
-<p align="center">
-  <img src="https://via.placeholder.com/600x300/EA580C/FFFFFF?text=Learning+Path" width="45%" alt="Learning Path">
-  <img src="https://via.placeholder.com/600x300/7C3AED/FFFFFF?text=Skill+Development" width="45%" alt="Skill Development">
-</p>
 
 - **🎯 Custom Learning Paths** - Generate roadmaps for any career or skill
 - **📚 Resource Integration** - Curated learning materials and courses
 - **⏱️ Time Estimation** - Realistic timelines for skill acquisition
 - **🔄 Progress Visualization** - Track your learning journey visually
+
+  ---
+  
 
 ## 🛠️ Technology Stack
 
@@ -74,6 +70,8 @@
 | **Deployment** | ![Vercel](https://img.shields.io/badge/Vercel-Deployment-000000?logo=vercel) |
 | **UI/UX** | ![Shadcn/ui](https://img.shields.io/badge/shadcn/ui-Components-000000) ![Lucide](https://img.shields.io/badge/Lucide-Icons-FF6B35) |
 
+---
+
 </div>
 
 ## 🚀 Quick Start Guide
@@ -83,6 +81,8 @@
 - **npm** or **yarn** package manager
 - **Google Gemini API** key
 - **Clerk** account for authentication
+
+--- 
 
 ### Installation Steps
 
@@ -103,10 +103,15 @@ cp .env.example .env.local
 
 # 5. Run development server
 npm run dev
-</div>
+
+```
 
 Environment Setup
 Create .env.local with the following variables:
+
+<div align="center">
+
+```bash
 # 🔐 Authentication
 NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=pk_test_...
 CLERK_SECRET_KEY=sk_test_...
@@ -122,7 +127,13 @@ IMAGEKIT_PUBLIC_KEY=your_imagekit_public_key
 IMAGEKIT_PRIVATE_KEY=your_imagekit_private_key
 IMAGEKIT_ENDPOINT_URL=your_imagekit_endpoint
 
+```
+
 📁 Project Architecture
+
+<div align="center">
+
+```bash
 ai-career-coach/
 ├── 🗂️ app/                    # Next.js 15 App Router
 │   ├── (routes)/           # Route groups for organization
@@ -143,16 +154,17 @@ ai-career-coach/
 ├── 📦 public/           # Static assets
 └── 🛠️ types/            # TypeScript type definitions
 
+```
+
 🎖️ Contribution Areas
+
 🎨 UI/UX improvements
-
 🚀 Performance optimizations
-
 📚 Documentation updates
-
 🧪 Test coverage
 
 🔧 New AI features
+
 📊 Project Stats
 <div align="center">
 https://img.shields.io/github/stars/Ayush-Raghuwanshi-Dev/ai-career-coach?style=for-the-badge&color=gold
@@ -175,4 +187,4 @@ Built with ❤️ by Ayush Raghuwanshi
 🚀 Ready to Transform Your Career?
 Get Started · View Demo · Report Issue
 
-</div> ```
+</div> 
