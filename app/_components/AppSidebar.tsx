@@ -59,7 +59,6 @@ export function AppSidebar() {
             </SidebarHeader>
             <SidebarContent>
                 <SidebarGroup>
-
                     <SidebarGroupContent>
                         <SidebarMenu className='mt-2'>
                             {items.map((item, index) => (
@@ -78,6 +77,14 @@ export function AppSidebar() {
                 </SidebarGroup>
             </SidebarContent>
             
+            {/* Added Footer with Build by credit */}
+            <SidebarFooter>
+                <div className="p-4 border-t border-gray-200">
+                    <p className="text-xs text-gray-500 text-center">
+                        Build by - Ayush-Raghuwanshi-Dev
+                    </p>
+                </div>
+            </SidebarFooter>
         </Sidebar>
     )
 }

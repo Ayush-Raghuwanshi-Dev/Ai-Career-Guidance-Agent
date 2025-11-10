@@ -28,6 +28,7 @@ console.log(chatid);
 useEffect(()=>{
     chatid&&GetMessageList();
 },[chatid])
+
 const GetMessageList=async()=>{
     const result = await axios.get('/api/history?recordId='+chatid);
     console.log(result.data);
@@ -35,31 +36,42 @@ const GetMessageList=async()=>{
     setMessageList((content)? content:[]);
 }
 
-
 const onSend=async()=>{
     setLoading(true);
 
+    // Add user message
     setMessageList(prev => [
-  ...prev,
-  {
-    content: userInput,
-    role: 'user',
-    type: 'text',
-  },
-]);
-setUserInput(" ");
-    const result=await axios.post('/api/ai-career-chat-agent',{
-        userInput:userInput
-    });
-    console.log(result.data);
-    setMessageList(prev => [
-  ...prev,{
-    content: result.data.output.content,  // extract the string
-    role: result.data.output.role,        // or hardcode 'assistant' if needed
-    type: result.data.output.type ?? 'text',
-  }
-]);
-    setLoading(false);
+        ...prev,
+        {
+            content: userInput,
+            role: 'user',
+            type: 'text',
+        },
+    ]);
+    setUserInput(" ");
+
+    try {
+        const result=await axios.post('/api/ai-career-chat-agent',{
+            userInput:userInput
+        });
+        console.log(result.data);
+        
+        // Add AI response - CORRECTED VERSION
+        if (result.data.status === 'Completed' && result.data.output) {
+            setMessageList(prev => [
+                ...prev,
+                {
+                    content: result.data.output, // This is the string response
+                    role: 'assistant',           // Fixed role
+                    type: 'text'                 // Fixed type
+                }
+            ]);
+        }
+    } catch (error) {
+        console.error('Error sending message:', error);
+    } finally {
+        setLoading(false);
+    }
 }
 
 console.log(messageList);
