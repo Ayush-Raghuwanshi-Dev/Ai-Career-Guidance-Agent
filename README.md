@@ -155,36 +155,39 @@ ai-career-coach/
 └── 🛠️ types/            # TypeScript type definitions
 
 ```
+## 🎖️ Contribution Areas
 
-🎖️ Contribution Areas
+- 🎨 **UI/UX improvements** - Enhance user interface and experience
+- 🚀 **Performance optimizations** - Improve speed and efficiency
+- 📚 **Documentation updates** - Keep documentation current and helpful
+- 🧪 **Test coverage** - Add comprehensive testing
+- 🔧 **New AI features** - Implement additional AI capabilities
 
-🎨 UI/UX improvements
-🚀 Performance optimizations
-📚 Documentation updates
-🧪 Test coverage
+## 📊 Project Stats
 
-🔧 New AI features
-
-📊 Project Stats
 <div align="center">
-https://img.shields.io/github/stars/Ayush-Raghuwanshi-Dev/ai-career-coach?style=for-the-badge&color=gold
-https://img.shields.io/github/forks/Ayush-Raghuwanshi-Dev/ai-career-coach?style=for-the-badge&color=blue
-https://img.shields.io/github/issues/Ayush-Raghuwanshi-Dev/ai-career-coach?style=for-the-badge
-https://img.shields.io/github/issues-pr/Ayush-Raghuwanshi-Dev/ai-career-coach?style=for-the-badge
+
+[![GitHub Stars](https://img.shields.io/github/stars/Ayush-Raghuwanshi-Dev/ai-career-coach?style=for-the-badge&color=gold)](https://github.com/Ayush-Raghuwanshi-Dev/ai-career-coach/stargazers)
+[![GitHub Forks](https://img.shields.io/github/forks/Ayush-Raghuwanshi-Dev/ai-career-coach?style=for-the-badge&color=blue)](https://github.com/Ayush-Raghuwanshi-Dev/ai-career-coach/forks)
+[![GitHub Issues](https://img.shields.io/github/issues/Ayush-Raghuwanshi-Dev/ai-career-coach?style=for-the-badge)](https://github.com/Ayush-Raghuwanshi-Dev/ai-career-coach/issues)
+[![GitHub Pull Requests](https://img.shields.io/github/issues-pr/Ayush-Raghuwanshi-Dev/ai-career-coach?style=for-the-badge)](https://github.com/Ayush-Raghuwanshi-Dev/ai-career-coach/pulls)
 
 </div>
-📄 License
-This project is licensed under the MIT License - see the LICENSE file for details.
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
 
 <div align="center">
-⭐ Support the Project
+
+## ⭐ Support the Project
+
 If you find this project helpful, please consider giving it a star on GitHub!
 
-https://api.star-history.com/svg?repos=Ayush-Raghuwanshi-Dev/ai-career-coach&type=Date
+![Star History Chart](https://api.star-history.com/svg?repos=Ayush-Raghuwanshi-Dev/ai-career-coach&type=Date)
 
-Built with ❤️ by Ayush Raghuwanshi
+**Built with ❤️ by [Ayush Raghuwanshi](https://github.com/Ayush-Raghuwanshi-Dev)**
 
-🚀 Ready to Transform Your Career?
-Get Started · View Demo · Report Issue
-
-</div> 
+</div>
